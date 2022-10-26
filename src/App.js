@@ -1,9 +1,17 @@
 import './App.css';
+import LinkData from './links.json'
+import Heading from './components/Heading';
+import Links from './components/Links';
+import Social from './components/Social';
+import Foot from './components/Foot';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello👋</h1>
+      <Heading/>
+      <Links linktrees={LinkData}/>
+      <Social/>
+      <Foot/>
     </div>
   );
 }

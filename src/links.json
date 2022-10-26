@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "zuri",
+    "link": "https://training.zuri.team/"
+  },
+  {
+    "id": 2,
+    "name": "Zuri Books",
+    "link": "http://books.zuri.team"
+  },
+  {
+    "id": 3,
+    "name": "Python Books",
+    "link": "https://books.zuri.team/python-for-beginners?ref_id=Omobayode Festus Osinubi"
+  },
+  {
+    "id": 4,
+    "name": "Pitch",
+    "link": "https://background.zuri.team/"
+  },
+  {
+    "id": 5,
+    "name": "Book Design",
+    "link": "https://books.zuri.team/design-rules/"
+  }
+]
