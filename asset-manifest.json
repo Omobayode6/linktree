@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/linktree/static/css/main.8ca45c5b.css",
+    "main.js": "/linktree/static/js/main.c6722e49.js",
+    "static/media/slack.png": "/linktree/static/media/slack.55ad9eabc7f642f5e5a5.png",
+    "static/media/profile__img.png": "/linktree/static/media/profile__img.5ff40e1b5d2b90077f44.png",
+    "index.html": "/linktree/index.html",
+    "main.8ca45c5b.css.map": "/linktree/static/css/main.8ca45c5b.css.map",
+    "main.c6722e49.js.map": "/linktree/static/js/main.c6722e49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ca45c5b.css",
+    "static/js/main.c6722e49.js"
+  ]
+}
