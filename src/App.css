@@ -18,6 +18,9 @@
   height: 88px;
   border-radius: 50%;
 }
+.share{
+  display: none;
+}
 #twitter{
   margin-top: 10px;
 }
@@ -25,13 +28,19 @@
   display: none;
 }
 /* Link Area */
+.link-section{
+  margin-bottom:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
 .btn{
   Width: 80%;
-  padding: 24px 0;
   padding:24px 32px;
   border: none;
   border-radius: 8px;
-  margin-top: 8px;
 }
 .btn>a{
   color: #101828;
@@ -44,7 +53,7 @@
 }
 /* Social Section */
 .social{
-  margin: 20px 0 30px;
+  margin-bottom: 30px;
   padding: 24px 0px;
   display: flex;
   justify-content: center;
@@ -83,4 +92,19 @@ font-size:16px ;
 line-height: 24px;
 font-family: 'Inter', sans-serif;
 color: #667085;
+}
+
+/* Mobile view */
+@media (max-width:690px){
+  .share{
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+  }
+  .link-section{
+    margin-bottom:50px;
+  }
+  .foot, .social{
+    display: none;
+  }
 }
